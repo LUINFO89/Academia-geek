@@ -1,0 +1,54 @@
+
+.base1{
+    background-color: rgb(138, 43, 226);
+    height:300px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+.base1 h1 {
+    font-size: 80px;
+    color: aliceblue;
+
+}
+
+
+.base2{
+    background-color: rgb(43, 137, 226);
+    height:300px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+.base1 h1 {
+    font-size: 80px;
+    color: aliceblue;
+}
+
+
+.revoloteado:hover {
+        font-family: 48px;
+        color: #6a1b9a;
+    }
+
+.palabra::before {
+          color: #c62828;
+          content: "___ ";
+        }
+.palabra::after {
+          color: #2e7d32;
+          content: " *";
+        }
+      
+      
+.texto::after {
+          color: #2e7d32;
+          content: ": esto no lo he escrito en el";
+        }
+  
