@@ -1,0 +1,13 @@
+body{
+    background-color: mediumpurple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rebeccapurple;
+    line-height: 1.5;
+}
+
+
+nav{
+    border-color: rgb(45, 165, 99);
+    color:rgb(38, 30, 116);
+}
