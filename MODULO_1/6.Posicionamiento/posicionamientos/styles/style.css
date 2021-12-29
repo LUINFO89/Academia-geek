@@ -1,0 +1,26 @@
+.caja1{
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    
+}
+.caja2{
+    background-color:rgb(14, 119, 119);
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 30px;    
+}
+.caja3{
+    background-color:rgb(1, 15, 15);
+    width: 100px;
+    height: 500px;
+    
+}
+.caja4{
+    background-color:rgb(45, 6, 185);
+    width: 100px;
+    height: 100px;
+    
+}
