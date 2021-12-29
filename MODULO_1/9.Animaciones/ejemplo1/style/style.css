@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+
+.item{
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border:2px solid red;
+    animation-name:clase360 ;
+    animation-duration: 2s ;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 5;
+}
+
+@keyframes clase360{
+    0%{
+        background-color: aqua;
+        left: 0;
+        top: 0;
+
+    }
+
+    25%{
+        background-color: rgb(12, 36, 112);
+        left: 300px;
+        top: 0;
+
+    }
+    50%{
+        background-color: rgb(43, 199, 113);
+        left: 300px;
+        top: 300px;
+
+    }
+    100%{
+        background-color: rgb(226, 109, 12);
+        left: 0;
+        top: 300px;
+
+    }
+}
+
+

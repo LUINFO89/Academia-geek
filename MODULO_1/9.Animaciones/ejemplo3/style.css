@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+  }
+  .hero {
+    background: url(https://images.unsplash.com/photo-1445112098124-3e76dd67983c?auto=format&fit=crop&w=1347&q=80)
+      center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__title {
+    margin: 0 0 15px;
+    font-size: 3em;
+    color: white;
+    font-family: arial, sans-serif;
+  }
+  .hero__text {
+    margin: 0;
+    color: white;
+    font-size: 1.2em;
+  }
+  .hero__scroll-down {
+    transform: translateX(-50%) rotate(90deg);
+    font-family: verdana, sans-serif;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 1px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weigth: bold;
+    font-size: 2em;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    animation-name: flux;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes flux {
+    0% {
+      box-shadow: 0 0 4px rgba(white, .5);
+    bottom: 1em;
+    }
+    50% {box-shadow: 0 0 20px rgba(white, .5);
+      bottom: -.5em;
+    }
+    85% {
+      box-shadow: 0 0 30px rgba(white, .2);
+    }
+    100% {
+      box-shadow: 0 0 4px rgba(white, .25);
+      bottom: 1em;
+    }
+  }
+  
+  .about {
+    padding: 30px 5% 60px;
+  }
+  .about__title {
+    font-size: 2em;
+  }
+  .about__content {
+    font-size: 1.2em;
+    line-height: 160%;
+  }
