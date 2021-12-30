@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+  
+}
+img{
+        width:400px;
+        height: 500px;
+        border-radius: 8px;
+        display: inline-block;
+    }
+
+h2{
+    color: blue;
+    margin-top: 20px;
+
+}   
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    font-size: 20px;
+}
+
+@media screen and (max-width:1024px){
+    body{
+        background-color: goldenrod;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width:400px){
+    body{
+        background-color: goldenrod;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        width:200px;
+    }
+
+}
