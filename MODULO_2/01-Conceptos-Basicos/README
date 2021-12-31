@@ -1,0 +1,7 @@
+comandos JS:
+console.log : imprme en consola
+typeof(): muestra tupos de datos variables
+alert():ventana emeergente del navegador
+document.write: muetstra en el dom del html.
+prompt: ventana emergente mensaje para ingresar datos
+number(): permite convertir tecto a numero
