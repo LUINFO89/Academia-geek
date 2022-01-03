@@ -1,0 +1,4 @@
+los objetos iterables son abtracciones de lo que pretende ser un etado de la vida real
+manejo de localstorage: permite tener almacenados los archivos en un espacio de memoria en nuestro navegador 
+
+en este ejercicio se captura la informacion de un usuario y se almacena en el local storage
