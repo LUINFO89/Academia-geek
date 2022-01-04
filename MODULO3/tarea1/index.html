@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <h1 id="titulo">Valores & Servicios</h1>
+    </header>
+
+    <body>
+        <div id="conversor">
+            <!--Contenido_Conversion_monetaria-->
+            <img src="https://static.vecteezy.com/system/resources/previews/002/732/961/non_2x/money-bag-dollars-free-vector.jpg"
+                ; />
+            <!--Referencia_grafica-->
+            <input type="number" id="cantidad" name="quantity" min="1" max="10" placeholder="Cantidad de dinero">
+            <!--Recibir_cantidad_dinero-->
+            <!--Selector_Moneda1-->
+            <select id="eleccionmoneda1">
+            </select>
+            <!--Selector_Moneda2-->
+            <select id="eleccionmoneda2">
+            </select>
+
+            <form>
+                <!--Formulario-->
+                <input type="submit" id="Convertir" value="Convertir" onclick="mostrarResultado(); return false;">
+                <h1 id="validacion"></h1>
+            </form>
+        </div>
+        <!--Cierre_Conversion_monetaria-->
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

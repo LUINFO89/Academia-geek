@@ -1,7 +1,13 @@
+// funcion para llamar el boton y guardar la informacion
+
+let boton = document.getElementById('btnenviar');
+boton.addEventListener('click',capturardatos)
+
 // mostrar el obtener localStorage al momento de cargar la pagina cargar
 // o el dom content loader
 
 document.addEventListener('DOMContentLoaded', function () {
+
     obtenerlocalstorage();
 })
 

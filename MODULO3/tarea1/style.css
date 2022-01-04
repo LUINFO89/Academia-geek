@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+    background-color: rgb(221, 220, 220);
+    }
+    #titulo{
+    color: black;
+    border-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    }
+    
+    #alerta{
+    background:pink;
+    color:rgb(37, 37, 37);
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    
+    }
+    
+    #conversor{
+    background-color: rgb(151, 151, 151);
+    width: 35%;
+    height: 450px;
+    padding:2px;
+    margin:15px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    img{
+    width: 200px;
+    height: 200px;
+    margin:20px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    input {
+    margin: 4px;
+    padding: 15px;
+    border-radius: 10px;
+    border-color:rgb(110, 126, 136);
+    border-width: 1,5px;
+    border-style: solid;
+    width: 99%;
+    height: 40px;
+    text-align: center;
+    
+    }
+    /*Modificacion de selectores*/
+    #eleccionmoneda1, #eleccionmoneda2{
+    background-color: rgb(231, 231, 231);color:rgb(0, 0, 0);
+    border-color:rgb(110, 126, 136);
+    border-width: 1,5px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 25%;
+    height: 35px;
+    
+    }
+    #Convertir{
+    background-color: rgb(58, 185, 19);
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    padding: 0;
+    border-radius: 10px;
+    border-color:rgb(58, 185, 19);
+    border-width: 3px;
+    border-style: solid;
+    width: 25%;
+    height: 35px;
+    
+    }
+    /*Modificacion de alerta*/
+
+h1{
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+}
+    /*Student*/
+    footer{
+    color:rgb(204, 204, 204);
+    text-align: center;
+    padding: 7%;}
