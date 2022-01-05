@@ -18,7 +18,7 @@ function capturardatos() {
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
     let telefono = document.getElementById('telefono').value;
-    
+    let observaciones = document.getElementById('observaciones').value;
 
     // crear un objeto para almacenar los valores al tiempo
 
@@ -26,7 +26,8 @@ function capturardatos() {
         nom: nombre,
         apel: apellido,
         tel: telefono,
-       
+        obs: observaciones
+
 
     }
 

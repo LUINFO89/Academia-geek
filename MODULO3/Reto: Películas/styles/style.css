@@ -27,7 +27,20 @@
     position: relative;
 }
 
-
+.ul li:before{
+    content: '';
+    position:absolute;
+    width: 270px;
+    height: 27px;
+    background:linear-gradient(#ffff4f,#63ff63,#ff3b3b);
+    top: -10px;
+    left: -10px;
+    border-radius: 10px;
+    transition:.5s;
+}
+.ul li:hover:before{
+    transform:scale(.7) rotate(180deg);
+}
 
 .ul li a{
     display: block;
