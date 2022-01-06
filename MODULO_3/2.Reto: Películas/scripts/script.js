@@ -1,15 +1,15 @@
 import { data } from '../data/data.js';
 
 var img = document.getElementById("items")
-var img2 = document.getElementById("items2")
 
 var linkimg, cont,info;
 
 linkimg = [
-    './images/iron.jpg',
-    './images/Hulk.jpg',
-    './images/iron.jpg',
-    './images/Hulk.jpg', 
+    './images/lobezo.jpg',
+    './images/x-men-origenes-lobezno.jpg',
+    './images/x-men.jpg',
+    './images/x-men-apocalipsis.jpg', 
+    './images/x-men-dias.jpg'
 ]
 
 

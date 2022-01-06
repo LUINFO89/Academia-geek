@@ -52,7 +52,7 @@ function capturardatos() {
     // crear un objeto para almacenar los valores al tiempo
 
     let objeto = {
-        
+
         kg: kg,
         m: m,
         imcx: imcx
