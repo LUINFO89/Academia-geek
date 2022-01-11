@@ -1,6 +1,12 @@
 let items = document.getElementById('items')
 let template = document.getElementById('template-card').content;
 let fragment = document.createDocumentFragment();
+let recetaModal = document.getElementById('modal-content')
+
+let listarIngredientes = document.getElementById('listarIngredientes')
+let preparacion = document.getElementById('preparacion')
+
+
 
 const url='http://localhost:4000/recetas'
 // lo que esta referenciado en el mostrar debo
@@ -36,8 +42,17 @@ const Mostrar = async(url) =>
     // mostrar todo en el espcio de items cargar
     items.appendChild(fragment)
     // se llaman los nodos que se realizaron en fragment 
+
+
+   
 }
 
 Mostrar(url)
+
+ items.addEventListener('click',(e)=>{
+        if(e.target.classList.contains('Mostrar')){console.log(e.srcElement.by)}
+    })
+
+
 
 
