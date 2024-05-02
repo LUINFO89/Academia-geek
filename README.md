@@ -45,6 +45,6 @@ Una vez que haya creado un nuevo problema, será recibido por la pantalla a cont
  > IMPORTANTE: Los `Issues` deben dejarse en estado abierto `Open`, de esta manera cada vez que usted crea un `Issue` una persona de nuestro equipo de mentores pasará a revisar si su entrega corresponde a los requerimientos solicitados en la asignación, tarea o entrega y es quien cambia el estado de un `Issue`, el cual puede ser cerrado `Close` o generarse una etiqueta `Label` en relacióna a una corrección o adición que usted deba realizar para que sea válida la entrega realizada y estar su actividad `Issue` cerrada `Close`.
 
 
-
+https://github.com/academia-geek/aprendices-geek-entrenamiento-laraeliza/tree/master
 
  
